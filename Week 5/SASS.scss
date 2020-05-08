@@ -1,0 +1,29 @@
+// Color Variables to ensure consistency
+$stagpathBlack: #262e09;
+$stagpathBeige: #ced1b2;
+// Grid template sizing string
+$columnWidth: '22.5% 22.5% 22.5% 22.5%';
+
+// Background color for all jumbotrons
+.jumbotron {
+    background-color: $stagpathBeige;
+}
+
+
+// Navbar with all a tags set to a certain color and grid settings for organization
+.navbar {
+    .a {
+        color: $stagpathBlack;
+    }
+    grid: {
+        template-areas: 'Link1 Link2 Link3 Link4';
+        template-columns: $columnWidth;
+    }
+}
+
+
+// Background color for galleries
+#gallery {
+    background-color: $stagpathBeige;
+    grid-template-columns: $columnWidth;
+}
